@@ -7,10 +7,6 @@ display: flex;
 flex-direction: column;
 padding: 32 32 32 32 32;
 margin-left: 8px;
-
-
-
-
 `;
 
 export const WrapperStatusCount = styled.div `
@@ -22,15 +18,14 @@ div {
     margin-right: 8px;
     text-align: center;
 }
-
-
-
 `;
 
 export const WrapperUserName = styled.div `
-
 display: flex;
-flex-direction: row;
+align-items: center;
+h3{
+    margin-right: 10px;
+}
 
 
 `;

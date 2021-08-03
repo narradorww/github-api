@@ -11,22 +11,19 @@ return (
                 </S.WrapperImage>
 
                 <S.Wrapper>
-                            <S.Wrapper>
-                            <div>
-                                <h1>Rodrigo Alexandre</h1> 
-                            </div>
-                            </S.Wrapper>
-
-
+                            
+                <div>
+                <h1>Rodrigo Alexandre</h1> 
                                 <S.WrapperUserName>
-                               
+                                    
                                     <h3>Username: </h3>
                                     <a href="https://github.com/narradorww"
                                     target="_blank"
-                                    rel="noreferrer"
-                                    >narradorww</a>
+                                    rel="noreferrer">
+                                    narradorww</a>
                                 
                                 </S.WrapperUserName>
+                </div>
                             
                             
                             <S.WrapperStatusCount>    
