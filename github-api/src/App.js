@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+import Layout from '../src/Components/layout/index'
+import Profile from '../src/Components/profile/index'
 
 
 function App() {
   return (
-    <div className="App">
-      GitHub-API
-    </div>
+    <main>
+
+      <Layout>
+       <Profile />
+        
+
+
+      </Layout>
+
+    </main>
+
   );
 }
 
