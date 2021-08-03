@@ -5,28 +5,30 @@ import * as S from './styled'
 const Profile = () => {
 return (
     <>
-    <S.WrapperInfoUser>
+    <S.Wrapper>
                 <S.WrapperImage src="https://avatars.githubusercontent.com/u/78651469?v=4"
-                                alt= "Avatar do Usuário">
-                </S.WrapperImage>
+                                alt= "Avatar do Usuário"/>
+                <S.WrapperInfoUser>
 
-                <S.Wrapper>
-                            
-                <div>
-                <h1>Rodrigo Alexandre</h1> 
-                                <S.WrapperUserName>
+                          
+                    <div>
+                    <h1>Rodrigo Alexandre</h1> 
+
                                     
-                                    <h3>Username: </h3>
-                                    <a href="https://github.com/narradorww"
-                                    target="_blank"
-                                    rel="noreferrer">
-                                    narradorww</a>
+                                    <S.WrapperUserName>
+                                        
+                                        <h3>Username: </h3>
+                                        <a href="https://github.com/narradorww"
+                                        target="_blank"
+                                        rel="noreferrer">
+                                        narradorww</a>
+                                    
+                                    </S.WrapperUserName>
                                 
-                                </S.WrapperUserName>
-                </div>
+                    </div>
+                              
                             
-                            
-                            <S.WrapperStatusCount>    
+                                    <S.WrapperStatusCount>    
                                 <div> 
                                 <h4> Followers </h4>
                                 <span> 5</span>
@@ -42,8 +44,9 @@ return (
                                 <span> 5</span>
                                 </div>
                             </S.WrapperStatusCount>
-                </S.Wrapper>
-  </S.WrapperInfoUser>
+                </S.WrapperInfoUser>
+                
+  </S.Wrapper>
    
     </>
 )
