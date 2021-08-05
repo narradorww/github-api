@@ -3,6 +3,18 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
+
+  @media only screen and (max-device-width: 600px){
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+
+
+  }
+
 `;
 
 export const WrapperInfoUser = styled.div`
